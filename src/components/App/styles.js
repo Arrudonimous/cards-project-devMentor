@@ -193,13 +193,17 @@ export const Footer = styled.footer`
   padding: 32px 16px;
   font-size: 18px;
 
-  button{
+  a{
     margin-left: 8px;
     background: #EBE7E7;
     border: none;
     padding: 8px 24px;
     border-radius: 70px;
     transition: background 0.2s ease-in;
+    text-decoration: none;
+    color: #00A76B;
+    font-size: 16px;
+
     
 
     &:hover{

@@ -52,7 +52,7 @@ function App() {
         </CardContainer>
         <Footer >
           <span>Link do repositório no github -></span>
-          <button>Repositório</button>
+          <a href='https://github.com/Arrudonimous/cards-project-devMentor'>Repositório</a>
         </Footer>
       </Container>
     </>
