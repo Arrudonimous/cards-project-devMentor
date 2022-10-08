@@ -12,47 +12,47 @@ function App() {
         <CardContainer>
           <Card1>
             <header>
-              <img src={ImageCard1} alt="logo" width={50} height={40} />
-              <span>Programação</span>
+              <img src={ImageCard1} alt="logo" width={50} height={50} />
+              <span>Linkedin</span>
             </header>
             <ParagraphContainer>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus diam fusce donec volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <p>Aplicão feita para treinar e adquirir conhecimentos sobre ReactJS pela plataforma Dev Mentor
               </p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus diam fusce donec volutpat.
+              <p>Aplicação desenvolvida utilizando: ReactJS, StyledComponents, CRA(Create React App)
               </p>
             </ParagraphContainer>
-            <button>Acessar</button>
+            <a href='https://www.linkedin.com/in/diego-arruda-9586791bb/'>Acessar</a>
           </Card1>
           <Card2>
             <header>
-              <img src={ImageCard2} alt="logo" width={50} height={40} />
-              <span>UI / UX</span>
+              <img src={ImageCard2} alt="logo" width={50} height={50} />
+              <span>Github</span>
             </header>
             <ParagraphContainer>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus diam fusce donec volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <p>Aplicão feita para treinar e adquirir conhecimentos sobre ReactJS pela plataforma Dev Mentor
               </p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus diam fusce donec volutpat.
+              <p>Aplicação desenvolvida utilizando: ReactJS, StyledComponents, CRA(Create React App)
               </p>
             </ParagraphContainer>
-            <button>Acessar</button>
+            <a href='https://github.com/Arrudonimous'>Acessar</a>
           </Card2>
           <Card3>
             <header>
-              <img src={ImageCard3} alt="logo" width={50} height={40} />
-              <span>Programação</span>
+              <img src={ImageCard3} alt="logo" width={50} height={50} />
+              <span>Instagram</span>
             </header>
             <ParagraphContainer>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus diam fusce donec volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <p>Aplicão feita para treinar e adquirir conhecimentos sobre ReactJS pela plataforma Dev Mentor
               </p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus diam fusce donec volutpat.
+              <p>Aplicação desenvolvida utilizando: ReactJS, StyledComponents, CRA(Create React App)
               </p>
             </ParagraphContainer>
-            <button>Acessar</button>
+            <a href='https://www.instagram.com/arrudonimous.js/'>Acessar</a>
           </Card3>
         </CardContainer>
         <Footer >
-          <span>Aprenda com desafios reais criado por profissionais.</span>
-          <button>Começar agora!</button>
+          <span>Link do repositório no github -></span>
+          <button>Repositório</button>
         </Footer>
       </Container>
     </>

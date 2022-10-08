@@ -39,6 +39,9 @@ export const Card1 = styled.div`
     font-weight: bold;
     display: flex;
     flex-direction: column;
+    img{
+      filter: invert(99%) sepia(14%) saturate(259%) hue-rotate(186deg) brightness(113%) contrast(100%);
+    }
   }
   
   span{
@@ -46,7 +49,7 @@ export const Card1 = styled.div`
     margin-top: 24px;
   }
   
-  button{
+  a{
     background: #EBE7E7;
     font-size: 16px;
     color: #00A76B;
@@ -54,7 +57,7 @@ export const Card1 = styled.div`
     border-radius: 92px;
     border: none;
     transition: background 0.2s ease-in;
-    margin-top: 52px;
+    text-decoration: none;
 
     &:hover{
       background: #fff;
@@ -81,6 +84,10 @@ export const Card2 = styled.div`
     font-weight: bold;
     display: flex;
     flex-direction: column;
+
+    img{
+      filter: invert(99%) sepia(14%) saturate(259%) hue-rotate(186deg) brightness(113%) contrast(100%);
+    }
   }
   
   span{
@@ -88,15 +95,15 @@ export const Card2 = styled.div`
     margin-top: 24px;
   }
   
-  button{
-    font-size: 16px;
+  a{
     background: #EBE7E7;
+    font-size: 16px;
     color: #00A76B;
     padding: 10px 50px;
     border-radius: 92px;
     border: none;
-    margin-top: 52px;
     transition: background 0.2s ease-in;
+    text-decoration: none;
 
     &:hover{
       background: #fff;
@@ -125,6 +132,9 @@ export const Card3 = styled.div`
     font-weight: bold;
     display: flex;
     flex-direction: column;
+    img{
+      filter: invert(99%) sepia(14%) saturate(259%) hue-rotate(186deg) brightness(113%) contrast(100%);
+    }
   }
   
   span{
@@ -132,16 +142,15 @@ export const Card3 = styled.div`
     margin-top: 24px;
   }
   
-  button{    
+  a{
     background: #EBE7E7;
     font-size: 16px;
     color: #00A76B;
     padding: 10px 50px;
     border-radius: 92px;
     border: none;
-    margin-top: 52px;
     transition: background 0.2s ease-in;
-    
+    text-decoration: none;
 
     &:hover{
       background: #fff;
@@ -165,6 +174,7 @@ export const ParagraphContainer = styled.div`
   gap: 16px;
   flex-direction: column;
   font-size: 14px;
+  margin-bottom: 52px;
 `
 
 
@@ -179,12 +189,12 @@ export const Footer = styled.footer`
   border-radius: 8px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 32px 16px;
-  padding: 22px 16px;
   font-size: 18px;
 
   button{
+    margin-left: 8px;
     background: #EBE7E7;
     border: none;
     padding: 8px 24px;
